@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Coffe Website</title>
+    <!--Link css-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Link Box icons-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <header>
+      <a href="#" class="logo">
+        <img src="img/logo.png" alt="logo" />
+      </a>
+      <!--Menu icon-->
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#customers">Customers</a></li>
+      </ul>
+      <!--Icon-->
+      <div class="header-icon">
+        <i class="bx bx-cart-alt"></i>
+        <i class="bx bx-search" id="search-icon"></i>
+      </div>
+    <!--Search box-->
+      <div class="search-box">
+        <input type="search" name="" id="" placeholder="Search here...." />
+      </div>
+    </header>
+
+    <!--Home-->
+    <section class="home" id="home">
+      <div class="home-text">
+        <h1>
+          Welcome<br/>
+          Dev Coffe<br/>
+          <>
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+          exercitationem quo quibusdam eum, saepe quis sequi adipisci quod non
+          explicabo? Id esse, veritatis quisquam laborum similique dignissimos
+          velit blanditiis corrupti?
+        </p>
+        <a href="#products" class="btn">Shop noW</a>
+      </div>
+      <div class="home-img">
+        <img src="https://i.pinimg.com/564x/c7/99/df/c799df6b89d3f27cf5bbd7a1c4daebd6.jpg" alt="" />
+      </div>
+    </section>
+
+    <!--About-->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="https://i.pinimg.com/564x/7b/05/a8/7b05a8db1873baa7afb331dc7cd18f7e.jpg" alt="" />
+      </div>
+      <div class="about-text">
+        <h2>Our History</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
+          numquam, delectus natus temporibus totam esse, id quis iure doloremque
+          asperiores nobis quidem quos voluptate quae magni deserunt,
+          reprehenderit impedit unde.
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
+          numquam, delectus natus temporibus totam esse, id quis iure doloremque
+          asperiores nobis quidem quos voluptate quae magni deserunt,
+          reprehenderit impedit unde.
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
+          numquam, delectus natus temporibus totam esse, id quis iure doloremque
+          asperiores nobis quidem quos voluptate quae magni deserunt,
+          reprehenderit impedit unde.
+        </p>
+        <a href="#" class="btn">Learn more</a>
+      </div>
+    </section>
+
+    <!--Carrito-->
+    <section>
+      <h4>Mi carrito</h4>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody id="tablabody">
+          <!-- aqui tabla carrito -->
+        </tbody>
+      </table>
+      <h4 id="total">Total a pagar $:</h4>
+      <button class="btn btn-warning" id="finalizarBtn">
+        Finalizar Compra
+      </button>
+      <button class="btn btn-danger" id="vaciarBtn">Vaciar Carrito</button>
+    </section>
+
+    <!--Products-->
+    <section class="products" id="products">
+      <div class="heading">
+        <h2>Our popular products</h2>
+      </div>
+      <!--Container de los producto-->
+    </section>
+
+    <!--Customers-->
+    <section class="customers" id="customers">
+      <div class="heading">
+        <h2>Our customer's </h2>
+      </div>
+      <!--Container-->
+      <div class="customers-container">
+        <div class="box" >
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, accusantium ipsam? Officia repellendus corporis iure vel! Suscipit assumenda consectetur voluptatem iure harum minima, consequuntur ex sunt placeat quisquam id impedit!</p>
+            <h2>Yasin Arafat</h2>
+            <img src="img/women1.png" alt="">
+          </div>
+        </div>
+      
+        <div class="box">
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, accusantium ipsam? Officia repellendus corporis iure vel! Suscipit assumenda consectetur voluptatem iure harum minima, consequuntur ex sunt placeat quisquam id impedit!</p>
+            <h2>Yasin Arafat</h2>
+            <img src="img/women3.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer" id="footer">
+      <div class="footer-box">
+          <h2>Coffe Shop</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto tempora facilis quibusdam, eum quod eveniet necessitatibus voluptate fugiat doloribus! Ducimus similique sed modi in aperiam eligendi voluptate tenetur? Praesentium, velit.</p>
+          <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-tiktok'></i></a>
+          </div>
+      </div>
+      <div class="footer-box">
+        <h2>Support</h2>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Help & Support</a></li>
+          <li><a href="#">Return Policy</a></li>
+          <li><a href="#">Terms Of Use</a></li>
+          <li><a href="#">Product</a></li>
+      </div>
+      <div class="footer-box">
+        <h2>View Guides</h2>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog Post </a></li>
+          <li><a href="#">Our Branches</a></li>
+      </div>
+
+      <div class="footer-box">
+        <h3>Contact</h3>
+        <div class="contact">
+          <span><i class="bx bxs-map"></i>CDMX, MEXICO</span>
+          <span><i class="bx bxs-phone"></i>5542745201</span>
+          <span><i class="bx bxs-envelope"></i>carmenmtzunam97@gmail.com</span>
+        </div>
+      </div>
+    </section>
+
+    <!--Copyright-->
+    <div class="copyright">
+      <p>@All rights reserved</p>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Toastify -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <!-- Luxon -->
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+    <!-- Mi script -->
+    <script src="productos.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
