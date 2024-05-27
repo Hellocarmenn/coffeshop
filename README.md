@@ -27,5 +27,15 @@ CoffeeShop es una página web para la venta de café, donde los usuarios pueden 
 
 ![Vista Previa](img/coffeshop.png)
 
-## Estructura del Proyecto
+
+
+## Contribuyendo
+
+Si quieres contribuir a este proyecto, ¡eres bienvenido! Solo asegúrate de seguir las pautas de contribución.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+
 
